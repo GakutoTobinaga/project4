@@ -10,7 +10,7 @@ import LoadingButton from "./buttons/LoadingButton";
 interface status2 {
   status: "authenticated" | "loading" | "unauthenticated"
 }
-// 外側から引数で受け取って認証にする。ライブラリや認証方法が変わったらできなくなる
+// 今度: 外側から引数で受け取って認証にする。ライブラリや認証方法が変わったらできなくなる
 
 export default function SigninSignout( statusX : any ) {
   
